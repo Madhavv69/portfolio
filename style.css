@@ -654,21 +654,19 @@ span{
     background-color: #0a0a0a;
     padding: 2rem 9%;
     text-align: center;
-    position: relative;
     border-top: 1px solid #b74b4b33;
 }
 
 .footer-content {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    gap: 1rem;
+    align-items: center;
+    gap: 1.5rem;
 }
 
 .footer-content p {
-    color: #ccc;
     font-size: 1.6rem;
+    color: #ccc;
 }
 
 .footer-content span {
@@ -676,22 +674,27 @@ span{
     font-weight: 600;
 }
 
-.scroll-top {
-    font-size: 2rem;
+.contact-details p {
+    margin: 0.2rem 0;
+    font-size: 1.5rem;
     color: #b74b4b;
-    background-color: transparent;
-    border: 2px solid #b74b4b;
-    padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
-    transition: 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
 }
 
-.scroll-top:hover {
-    background-color: #b74b4b;
-    color: black;
-    box-shadow: 0 0 10px #b74b4b;
-    transform: scale(1.1);
+.contact-details i {
+    color: #b74b4b;
 }
+
+@media (max-width: 600px) {
+    .footer-content p,
+    .contact-details p {
+        font-size: 1.4rem;
+    }
+}
+
+
 
 /* Footer section ends*/
 
