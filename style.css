@@ -535,8 +535,8 @@ span{
 
 .projects {
     padding: 6rem 9%;
-    background-color: #000;
-    color: white;
+    background-color: #0a0f24; /* dark futuristic bg */
+    color: #E0E0E0;
     text-align: center;
 }
 
@@ -544,6 +544,8 @@ span{
     font-size: 4rem;
     margin-bottom: 4rem;
     font-weight: 700;
+    color: #00FFFF;
+    text-shadow: 0 0 10px #00FFFF;
 }
 
 .projects-container {
@@ -553,37 +555,40 @@ span{
 }
 
 .project-box {
-    background-color: #1a1a1a;
+    background-color: #111827;
     padding: 3rem 2rem;
     border-radius: 1.5rem;
-    box-shadow: 0 0 20px rgba(183, 75, 75, 0.15);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.15);
     transition: 0.4s ease;
     text-align: left;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border: 1px solid #1f2937;
 }
 
 .project-box:hover {
     transform: translateY(-10px);
-    box-shadow: 0 0 25px #b74b4b;
+    box-shadow: 0 0 25px #A020F0;
+    border-color: #A020F0;
 }
 
 .project-box i {
     font-size: 3rem;
-    color: #b74b4b;
+    color: #A020F0;
     margin-bottom: 1rem;
+    text-shadow: 0 0 8px #A020F0;
 }
 
 .project-box h3 {
     font-size: 2.2rem;
     margin-bottom: 1rem;
-    color: white;
+    color: #00FFFF;
 }
 
 .project-box p {
     font-size: 1.6rem;
-    color: #ccc;
+    color: #CCCCCC;
     margin-bottom: 2rem;
     line-height: 1.5;
 }
@@ -592,18 +597,28 @@ span{
     align-self: flex-start;
     padding: 0.8rem 2.4rem;
     font-size: 1.4rem;
+    background-color: transparent;
+    border: 1px solid #A020F0;
+    color: #A020F0;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    transition: 0.3s ease;
+}
+
+.project-box .btn:hover {
+    background-color: #A020F0;
+    color: #0a0f24;
+    box-shadow: 0 0 15px #A020F0;
 }
 
 /* Project section ends */
 
-
 /* Certification section starts */
-
 
 .certifications {
     padding: 6rem 9%;
-    background-color: #0a0a0a;
-    color: white;
+    background-color: #0a0f24;
+    color: #E0E0E0;
     text-align: center;
 }
 
@@ -611,6 +626,8 @@ span{
     font-size: 4rem;
     margin-bottom: 4rem;
     font-weight: 700;
+    color: #00FFFF;
+    text-shadow: 0 0 10px #00FFFF;
 }
 
 .certifications-container {
@@ -620,37 +637,40 @@ span{
 }
 
 .cert-box {
-    background-color: #1a1a1a;
+    background-color: #111827;
     padding: 3rem 2rem;
     border-radius: 1.5rem;
-    box-shadow: 0 0 20px rgba(183, 75, 75, 0.1);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.12);
     transition: 0.4s ease;
     text-align: left;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border: 1px solid #1f2937;
 }
 
 .cert-box:hover {
     transform: translateY(-10px);
-    box-shadow: 0 0 25px #b74b4b;
+    box-shadow: 0 0 25px #A020F0;
+    border-color: #A020F0;
 }
 
 .cert-box i {
     font-size: 3rem;
-    color: #b74b4b;
+    color: #A020F0;
     margin-bottom: 1rem;
+    text-shadow: 0 0 8px #A020F0;
 }
 
 .cert-box h3 {
     font-size: 2.2rem;
     margin-bottom: 1rem;
-    color: white;
+    color: #00FFFF;
 }
 
 .cert-box p {
     font-size: 1.6rem;
-    color: #ccc;
+    color: #CCCCCC;
     margin-bottom: 2rem;
     line-height: 1.5;
 }
@@ -659,18 +679,30 @@ span{
     align-self: flex-start;
     padding: 0.8rem 2.4rem;
     font-size: 1.4rem;
+    background-color: transparent;
+    border: 1px solid #A020F0;
+    color: #A020F0;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    transition: 0.3s ease;
 }
 
-/* Certification section ends*/
+.cert-box .btn:hover {
+    background-color: #A020F0;
+    color: #0a0f24;
+    box-shadow: 0 0 15px #A020F0;
+}
+
+/* Certification section ends */
 
 
 /* Footer section starts*/
 
 .footer {
-    background-color: #0a0a0a;
+    background-color: #0a0f24;
     padding: 2rem 9%;
     text-align: center;
-    border-top: 1px solid #b74b4b33;
+    border-top: 1px solid rgba(0, 255, 255, 0.2);
 }
 
 .footer-content {
@@ -682,25 +714,28 @@ span{
 
 .footer-content p {
     font-size: 1.6rem;
-    color: #ccc;
+    color: #CCCCCC;
 }
 
 .footer-content span {
-    color: #b74b4b;
+    color: #00FFFF;
     font-weight: 600;
+    text-shadow: 0 0 5px #00FFFF;
 }
 
 .contact-details p {
     margin: 0.2rem 0;
     font-size: 1.5rem;
-    color: #b74b4b;
+    color: #A020F0;
     display: flex;
     align-items: center;
     gap: 0.8rem;
+    text-shadow: 0 0 5px #A020F0;
 }
 
 .contact-details i {
-    color: #b74b4b;
+    color: #A020F0;
+    text-shadow: 0 0 6px #A020F0;
 }
 
 @media (max-width: 600px) {
@@ -710,20 +745,20 @@ span{
     }
 }
 
+/* Footer section ends */
 
 
-/* Footer section ends*/
-
-
+/* Smooth scroll */
 html {
     scroll-behavior: smooth;
 }
 
 
+/* Navbar underline effect */
 nav a {
     position: relative;
     font-size: 1.8rem;
-    color: white;
+    color: #E0E0E0;
     margin-left: 4rem;
     font-weight: 500;
     transition: 0.3s ease;
@@ -736,7 +771,8 @@ nav a::after {
     bottom: -5px;
     width: 0%;
     height: 3px;
-    background-color: #b74b4b;
+    background-color: #00FFFF;
+    box-shadow: 0 0 8px #00FFFF;
     transition: width 0.4s ease-in-out;
 }
 
