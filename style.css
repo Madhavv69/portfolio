@@ -117,7 +117,7 @@ section{
 }
 
 span{
-    color: #0a0f24;
+    color:#00FFFF;
 }
 
 .home-content h3{
@@ -220,7 +220,7 @@ span{
 
 @keyframes cursor{
     to{
-        border-left: 3px solid ;
+        border-left: 3px solid #00FFFF;
     }
 }
 
@@ -274,7 +274,7 @@ span{
 
 .skills {
     padding: 6rem 5%;
-    background-color: #111;
+    background-color: #0a0f24;
     color: white;
     text-align: center;
 }
