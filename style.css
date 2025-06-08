@@ -275,10 +275,12 @@ span{
 
 .skills {
     padding: 6rem 5%;
-    background-color: #111827; /* dark futuristic background */
-    color: #E0E0E0; /* light text */
+    background-color: #111827;
+    color: #E0E0E0;
     text-align: center;
 }
+
+
 
 .skills .heading {
     font-size: 4rem;
@@ -782,28 +784,8 @@ nav a.active::after {
 }
 
 
-/* Effects /
 
-/* === Background Animation & Grid Overlay === */
 
-.bg-animated {
-    background: linear-gradient(-45deg, #0a0f24, #111827, #0a0f24, #1a1a1a);
-    background-size: 400% 400%;
-    animation: gradientBG 18s ease infinite;
-}
-
-@keyframes gradientBG {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-}
-
-.bg-grid {
-    background-image: 
-        linear-gradient(0deg, rgba(255,255,255,0.03) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
-    background-size: 40px 40px;
-}
 
 
 
