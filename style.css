@@ -381,7 +381,7 @@ span{
 /* experience section starts */
 
 .experience .heading {
-  color: #7df9ff;
+  
 }
 .experience .timeline {
   position: relative;
@@ -552,5 +552,85 @@ span{
 }
 /* experience media queries ends */
 /* experience section ends */
+
+.skills {
+    padding: 6rem 5%;
+    background-color: #111;
+    color: white;
+    text-align: center;
+}
+
+.skills .heading {
+    font-size: 4rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 2.5rem;
+}
+
+.skill-box {
+    background-color: #1c1c1c;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 20px rgba(183, 75, 75, 0.2);
+    transition: 0.4s ease;
+}
+
+.skill-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px #b74b4b;
+}
+
+.skill-box i {
+    font-size: 3.5rem;
+    color: #b74b4b;
+    margin-bottom: 1rem;
+}
+
+.skill-box h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+    .skills .heading {
+        font-size: 3rem;
+    }
+
+    .skill-box i {
+        font-size: 3rem;
+    }
+
+    .skill-box h3 {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .skills {
+        padding: 4rem 3%;
+    }
+
+    .skills-container {
+        gap: 1.5rem;
+    }
+
+    .skill-box {
+        padding: 1.5rem;
+    }
+
+    .skill-box i {
+        font-size: 2.5rem;
+    }
+
+    .skill-box h3 {
+        font-size: 1.5rem;
+    }
+}
 
 
