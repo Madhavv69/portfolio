@@ -270,7 +270,7 @@ span{
 
 
 
-/* Skills section ends */
+/* Skills section starts */
 
 
 .skills {
@@ -303,17 +303,18 @@ span{
     border: 1px solid #1f2937;
 }
 
-.skill-box:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 25px #00FFFF;
-}
-
 .skill-box i {
     font-size: 3.5rem;
-    color: #D100D1; /* neon magenta icons */
+    color: #A020F0; /* Cyberpunk Fuchsia */
     margin-bottom: 1rem;
-    text-shadow: 0 0 10px #D100D1;
+    text-shadow: 0 0 10px #A020F0;
 }
+
+.skill-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px #A020F0;
+}
+
 
 .skill-box h3 {
     font-size: 1.8rem;
@@ -361,15 +362,12 @@ span{
 /* Skills section ends */
 
 
-/* Skills section ends */
-
 /* Education section Starts */
-
 
 .education {
     padding: 6rem 9%;
-    background-color: #000;
-    color: white;
+    background-color: #0a0f24; /* dark futuristic background */
+    color: #E0E0E0;
     text-align: center;
 }
 
@@ -377,6 +375,8 @@ span{
     font-size: 4rem;
     margin-bottom: 4rem;
     font-weight: 700;
+    color: #00FFFF; /* electric cyan */
+    text-shadow: 0 0 10px #00FFFF;
 }
 
 .education-container {
@@ -386,33 +386,36 @@ span{
 }
 
 .education-box {
-    background-color: #1c1c1c;
+    background-color: #111827; /* dark card background */
     padding: 3rem 2rem;
     border-radius: 1.5rem;
-    box-shadow: 0 0 20px rgba(183, 75, 75, 0.15);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.15);
     transition: 0.3s ease;
+    border: 1px solid #1f2937;
 }
 
 .education-box:hover {
     transform: translateY(-10px);
-    box-shadow: 0 0 25px #b74b4b;
+    box-shadow: 0 0 25px #A020F0; /* neon purple glow */
+    border-color: #A020F0;
 }
 
 .education-box i {
     font-size: 4rem;
-    color: #b74b4b;
+    color: #A020F0;
     margin-bottom: 1rem;
+    text-shadow: 0 0 10px #A020F0;
 }
 
 .education-box h3 {
     font-size: 2.2rem;
     margin-bottom: 0.5rem;
-    color: #fff;
+    color: #00FFFF; /* electric cyan */
 }
 
 .education-box p {
     font-size: 1.6rem;
-    color: #ccc;
+    color: #CCCCCC;
     line-height: 1.6;
 }
 
@@ -441,17 +444,16 @@ span{
     }
 }
 
-
 /* Education section ends */
+
 
 
 /* Experience section Starts */
 
-
 .experience {
     padding: 6rem 9%;
-    background-color: #0a0a0a;
-    color: white;
+    background-color: #0a0f24; /* dark futuristic background */
+    color: #E0E0E0;
     text-align: center;
 }
 
@@ -459,6 +461,8 @@ span{
     font-size: 4rem;
     margin-bottom: 4rem;
     font-weight: 700;
+    color: #00FFFF; /* electric cyan heading */
+    text-shadow: 0 0 10px #00FFFF;
 }
 
 .experience-container {
@@ -468,41 +472,44 @@ span{
 }
 
 .experience-box {
-    background-color: #1a1a1a;
+    background-color: #111827; /* dark card */
     padding: 3rem 2rem;
     border-radius: 1.5rem;
-    box-shadow: 0 0 20px rgba(183, 75, 75, 0.15);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.15);
     transition: 0.4s ease;
     position: relative;
+    border: 1px solid #1f2937;
 }
 
 .experience-box:hover {
     transform: translateY(-10px);
-    box-shadow: 0 0 25px #b74b4b;
+    box-shadow: 0 0 25px #A020F0; /* neon purple hover */
+    border-color: #A020F0;
 }
 
 .experience-box i {
     font-size: 3.5rem;
-    color: #b74b4b;
+    color: #A020F0;
     margin-bottom: 1.2rem;
+    text-shadow: 0 0 10px #A020F0;
 }
 
 .experience-box h3 {
     font-size: 2rem;
     margin-bottom: 0.8rem;
-    color: white;
+    color: #00FFFF;
 }
 
 .experience-box .duration {
     font-size: 1.4rem;
-    color: #aaa;
+    color: #AAAAAA;
     margin-bottom: 1rem;
     display: block;
 }
 
 .experience-box p {
     font-size: 1.6rem;
-    color: #ccc;
+    color: #CCCCCC;
     line-height: 1.6;
 }
 
