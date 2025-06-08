@@ -18,8 +18,8 @@ body{
     width: 100%;
     height: 100vh;
     overflow-x: hidden;
-    background-color: black;
-    color: White;
+    background-color: #0a0f24;
+    color: #E0E0E0;
 }
 
 header{
@@ -107,7 +107,7 @@ section{
     justify-content: center;
     align-items: center;
     gap: 8rem;
-    background-color: black;
+    background-color: #0a0f24;
 }
 
 .home .home-content h1{
