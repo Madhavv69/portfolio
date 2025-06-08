@@ -699,3 +699,35 @@ span{
 /* Footer section ends*/
 
 
+html {
+    scroll-behavior: smooth;
+}
+
+
+nav a {
+    position: relative;
+    font-size: 1.8rem;
+    color: white;
+    margin-left: 4rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+nav a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0%;
+    height: 3px;
+    background-color: #b74b4b;
+    transition: width 0.4s ease-in-out;
+}
+
+nav a:hover::after,
+nav a.active::after {
+    width: 100%;
+}
+
+
+
