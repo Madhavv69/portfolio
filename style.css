@@ -145,9 +145,9 @@ span{
     transition: 0.2s linear;
 }
 
-.home-img img:hover{
-    font-size: 1.8rem;
-    font-weight: 500;
+.home-img img:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 25px #00FFFF, 0 0 40px #00FFFF88;
 }
 
 .social-icons a{
