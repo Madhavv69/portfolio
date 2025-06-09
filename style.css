@@ -22,6 +22,8 @@ body{
     color: #E0E0E0;
 }
 
+
+
 header{
     margin-top: 20px;
     position: fixed;
@@ -196,8 +198,29 @@ span{
     font-weight: 600;
     min-width: 280px;
     background-color: #0a0f24;
-    color: #00FFFF;
 }
+
+.white {
+  color: #ffffff;
+}
+
+.cyan {
+  color: #00FFFF;
+}
+
+.cyantypewriter {
+    overflow: hidden;
+    white-space: nowrap;
+    
+    border-right: 2px solid #00FFFF;
+    animation: typing 4s steps(30) 1 forwards;
+}
+
+@keyframes typing {
+    0% { width: 0; }
+    100% { width: 100%; }
+}
+
 
 
 @media (max-width: 1000px){
