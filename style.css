@@ -714,6 +714,18 @@ span{
     text-shadow: 0 0 6px #A020F0;
 }
 
+.contact-details a {
+    color: #A020F0;
+    text-decoration: none;
+    text-shadow: 0 0 5px #A020F0;
+    transition: color 0.3s ease;
+}
+
+.contact-details a:hover {
+    color: #da70d6;
+}
+
+
 @media (max-width: 600px) {
     .footer-content p,
     .contact-details p {
